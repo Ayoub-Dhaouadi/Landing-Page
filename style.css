@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    color: #f9faf8;    
+    color: #f9faf8;
     width: 100vw;
 }
 
@@ -60,7 +60,7 @@ body {
 .hero-title {
     font-size: 48px;
     font-weight: 1000;
-    color:#e5e7eb;
+    color: #e5e7eb;
     margin-right: 100px;
     margin-bottom: 50px;
 }
@@ -84,4 +84,124 @@ body {
 img {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin: 20px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.border {
+    width: 150px;
+    height: 150px;
+    border-color: #3882f6;
+    border-radius: 10%;
+    border-width: 3px;
+    border-style: solid;
+    margin: 30px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 70px;
+}
+
+.author {
+    margin-right: 500px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.signup-bg {
+    background-color: #e5e7eb;
+    width: 100vw;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 15px;
+    margin: 100px;
+    width: 1000px;
+    height: 250px;
+}
+
+.signup-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline;
+    flex-direction: column;
+    margin:20px;
+}
+
+.signup-title {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+    font-style: normal;
+    margin: 30px;
+}
+
+.singup-subtitle {
+    font-size: 18px;
+    color: #f9faf8;
+    font-style: italic;
+}
+
+.signup-button {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 900;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #3882f6;
+    padding: 15px;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #1F2937;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
 }
